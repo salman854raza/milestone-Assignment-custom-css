@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
@@ -10,14 +11,14 @@ const Home = () => {
 
 
 
-      {/* <header className="text-gray-600 body-font">
+      <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <div className="flex space-x-4">
               <div className="avatar">
                 <div className="w-10 rounded-full relative">
                   <img
-                    src="/images/salman.JPEG"
+                    src="/images/salman.jpg"
                     alt="salman avatar"
                     className="w-10 h-10 rounded-full"
                   />
@@ -51,10 +52,10 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </header> */}
+      </header>
 
       
-<header className="text-gray-600 body-font">
+{/* <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
       <a className="mr-5 hover:text-blue-600" href="/">Home</a>
@@ -76,7 +77,7 @@ const Home = () => {
       </button>
     </div>
   </div>
-</header>
+</header> */}
 
 
 
