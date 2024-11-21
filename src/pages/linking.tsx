@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function home(){
+export default function Home(){
     return(
         <div>
             <h1 className="text-blue-500 text-center">NextJs with Salman Raza</h1>
